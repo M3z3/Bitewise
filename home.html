@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In - Bitewise</title>
-    <!-- Add your CSS stylesheets here if needed -->
+    
 </head>
 <body>
     <div class="login-container">
@@ -26,12 +26,12 @@
 
     <script>
         document.getElementById('loginForm').addEventListener('submit', async function (e) {
-            e.preventDefault(); // Prevent default form submission
+            e.preventDefault(); 
 
             const formData = new FormData(this);
 
             try {
-                const response = await fetch('/api/login', { // Adjust endpoint to match your AuthController route
+                const response = await fetch('/api/login', { 
                     method: 'POST',
                     body: formData
                 });
