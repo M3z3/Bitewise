@@ -3,7 +3,7 @@
 REST backend that compares supplied ingredient text against a user profile containing allergies and dietary restrictions.
 
 ## Requirements
-- Java 21
+- Java 25 (latest LTS)
 - Maven 3.9+ (or use your IDE's Maven integration)
 
 ## Run
